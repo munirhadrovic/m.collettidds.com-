@@ -491,6 +491,7 @@
         <div data-role="page" data-theme="<?php echo $theme?>" id="banda">
             <div data-role="main" class="ui-content">
                 <div class="ui-grid-solo" data-theme="<?php echo $theme?>">
+
                     <h3 style="font-family: cursive">Smile Makeover</h3>
                     <p>Almost anyone can have the perfect smile they dream about. But there is a more to the perfect smile than just white teeth, including healthy gums</p>
                     <a href="#" class="ui-btn ui-mini ui-btn-corner-all">read more</a>
@@ -499,7 +500,8 @@
                     <a href="#" class="ui-btn ui-btn-corner-all ui-mini">read more</a>
                     <h3>lumineers</h3>
                     <p>This is one way to quickly get that beautiful smile. Lumineers are porcelain veneers that offer a way to a permanently whiter and perfectly aligned smile.</p>
-                    <a href="#" class="ui-btn ui-mini ui-btn-corner-all"
+                    <a href="#" class="ui-btn ui-mini ui-btn-corner-all">read more</a>
+
                     <div class="ui-grid-a">
                         <h3>Performing Cosmetic Dentistry Miracles</h3>
                         <p>The field of Restorative Dentistry is one in which Dr. Colletti takes great pride, as it helps keep your smile bright. The wide range of restorative dental services offered include Bonding, Veneers, Enamel Reshaping and Crowns.</p>
@@ -527,12 +529,113 @@
                             <img src="img/picture/page4-img5.jpg">
                             <p>After</p>
                         </div>
-                        <a href="#" class="ui-btn ui-btn-corner-all">Restorative Denistry Photos</a>
+                        <a href="#resdenph" class="ui-btn ui-btn-corner-all">Restorative Denistry Photos</a>
                     </div>
                     </div>
 
                 </div>
 
+            </div>
+        </div>
+
+
+
+<!--Page Restorative Denistry Photos-->
+        <div data-role="page" id="resdenph" data-theme="<?php echo $theme?>">
+            <div data-role="main" class="ui-content">
+                <div class="ui-grid-solo" data-theme="<?php echo $theme?>">
+                    <div class="pparagraphss">
+                 <h2>Testimonials</h2>
+                    <p>To go back to the main Restoration Dentistry page or to view the next set of before and after photos, please <a href="#">click here.</a> Photos are enlarged to show detail. Please scroll down to see the complete set of images</p>
+                </div>
+                <div clas="ui-grid-a">
+
+                    <h1 style="font-size: 30px; font-family: cursive;">Colletti D.D.S. Restorative Dentistry Photos</h1>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
+
+                    <div class="ui-block-a">
+                        <img src="img/picture/page4-img2.jpg">
+                        <p>Before</p>
+                    </div>
+
+                    <div class="ui-block-b">
+                        <img src="img/picture/page4-img3.jpg">
+                        <p>After</p>
+                    </div>
+
+                </div>
+                    <div clas="ui-grid-a">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
+
+                        <div class="ui-block-a">
+                            <img src="img/picture/first.jpg">
+                            <p>Before</p>
+                        </div>
+
+                        <div class="ui-block-b">
+                            <img src="img/picture/second.jpg">
+                            <p>After</p>
+                        </div>
+
+                    </div>
+                    <div clas="ui-grid-a">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
+
+                        <div class="ui-block-a">
+                            <img src="img/picture/first1.jpg">
+                            <p>Before</p>
+                        </div>
+
+                        <div class="ui-block-b">
+                            <img src="img/picture/second1.jpg">
+                            <p>After</p>
+                        </div>
+
+                    </div>
+                    <div clas="ui-grid-a">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
+
+                        <div class="ui-block-a">
+                            <img src="img/picture/first2.jpg">
+                            <p>Before</p>
+                        </div>
+
+                        <div class="ui-block-b">
+                            <img src="img/picture/second2.jpg">
+                            <p>After</p>
+                        </div>
+
+                    </div>
+                    <div clas="ui-grid-a">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
+
+                        <div class="ui-block-a">
+                            <img src="img/picture/first3.jpg">
+                            <p>Before</p>
+                        </div>
+
+                        <div class="ui-block-b">
+                            <img src="img/picture/second3.jpg">
+                            <p>After</p>
+                        </div>
+
+                    </div>
+                    <div clas="ui-grid-a">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
+
+                        <div class="ui-block-a">
+                            <img src="img/picture/first4.jpg">
+                            <p>Before</p>
+                        </div>
+
+                        <div class="ui-block-b">
+                            <img src="img/picture/second4.jpg">
+                            <p>After</p>
+                        </div>
+
+                    </div>
+
+                </div>
             </div>
         </div>
 	<!-- page 2 ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////-->
