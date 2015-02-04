@@ -229,3 +229,15 @@ input#contact-submit-dugme {
 #slider3-pager a {
   padding: 0;
 }
+
+.paragraphs{
+    padding: 10px;
+}
+.words{
+    color: blue;
+    font-size: 30px;
+}
+.subtitle{
+    color: #0088bb;
+    font-size: 20px;
+}
