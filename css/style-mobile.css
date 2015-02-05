@@ -23,11 +23,14 @@
 }
 
 #header-image h1{
-margin: 0 12%;
+margin: 0 0%;
 }
-#menu {
-  display:none;
+.unvisible {
+    display: none;
 }
+
+
+
 #menu-contact {
   display:none;
 }
@@ -64,10 +67,12 @@ input#contact-submit-dugme {
 .ui-content{
   padding: 0px;
 }
+
 .navigation-menu{
   width: 100%;
   height: 35px;
 }
+
 /*css za hamburger menu//////////////////////////////////////////////////////////////////////////////////////*/
 .menu-btn div {
   position: absolute;

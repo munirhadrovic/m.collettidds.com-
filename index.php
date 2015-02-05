@@ -31,6 +31,46 @@
 					prependTo:'#navigation-menu'
 				});
 			});
+            $(function(){
+                $('#menu1').slicknav({
+                    prependTo:'#navigation-menu1'
+                });
+            });
+            $(function(){
+                $('#menu2').slicknav({
+                    prependTo:'#navigation-menu2'
+                });
+            });
+            $(function(){
+                $('#menu3').slicknav({
+                    prependTo:'#navigation-menu3'
+                });
+            });
+            $(function(){
+                $('#menu4').slicknav({
+                    prependTo:'#navigation-menu4'
+                });
+            });
+            $(function(){
+                $('#menu5').slicknav({
+                    prependTo:'#navigation-menu5'
+                });
+            });
+            $(function(){
+                $('#menu6').slicknav({
+                    prependTo:'#navigation-menu6'
+                });
+            });
+            $(function(){
+                $('#menu7').slicknav({
+                    prependTo:'#navigation-menu7'
+                });
+            });
+            $(function(){
+                $('#menu8').slicknav({
+                    prependTo:'#navigation-menu8'
+                });
+            });
 			$(function(){
 				$('#menu-contact').slicknav({
 					prependTo:'#navigation-menu-contact'
@@ -137,7 +177,7 @@
 			    <!-- Jssor Slider End -->
 				<fieldset class="ui-grid-a" data-theme="<?php echo $theme ?>">
 					<!-- OVDJE SE UPISUJE BROJ TELEFONA KOJI TREBA POZVATI  -->
-					<div class="ui-block-a"><a class="ui-btn ui-icon-phone ui-btn-icon-left buttons-radius" href="tel:<?php echo $telephone ?>">Call US</a></div>
+					<div class="ui-block-a"><a class="ui-btn ui-icon-phone ui-btn-icon-left buttons-radius" href="tel:<?php echo $telephone?>">Call US</a></div>
 					<!-- ovdje se upisuje grad i adresa iz koje  -->
 					<div class="ui-block-b" id="findUS">
 						<script>
@@ -212,10 +252,10 @@
 					<div class="ui-block-a buttons-semir "><a class="ui-btn ui-icon-info ui-btn-icon-left buttons-radius" href="#banda" data-transition="<?php echo $transitionefect ?>">Before and After's</a></div>
 				</div>
 				<div class="ui-grid-solo" data-theme="<?php echo $theme ?>">
-					<div class="ui-block-a buttons-semir "><a class="ui-btn ui-icon-info ui-btn-icon-left buttons-radius" href="#page2" data-transition="<?php echo $transitionefect ?>">News</a></div>
+					<div class="ui-block-a buttons-semir "><a class="ui-btn ui-icon-info ui-btn-icon-left buttons-radius" href="http://www.collettidds.com/pdf/newsletter_july_2013.pdf" data-transition="<?php echo $transitionefect ?>">News</a></div>
 				</div>
 				<div class="ui-grid-solo" data-theme="<?php echo $theme ?>">
-					<div class="ui-block-a buttons-semir "><a class="ui-btn ui-icon-mail ui-btn-icon-left buttons-radius" href="#contactform" data-transition="<?php echo $transitionefect ?>">Contact US</a></div>
+					<div class="ui-block-a buttons-semir "><a class="ui-btn ui-icon-mail ui-btn-icon-left buttons-radius" href="#contacttfform" data-transition="<?php echo $transitionefect ?>">Contact US</a></div>
 				</div>				   
 		  </div>
 		  
@@ -224,41 +264,25 @@
 		<!-- page 1 ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////-->
 		<!-- page 2 ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////-->
 
-		<div data-role="page" id="page2" data-theme="<?php echo $theme ?>">
-			<div data-role="main" class="ui-content" data-theme="<?php echo $theme ?>">
-				<div class="ui-grid-solo" data-theme="<?php echo $theme ?>">
-					<section id="navigation-menu">
-						<ul id="menu">
-							<li><a href="#page1" data-transition="<?php echo $transitionefect ?>">Home</a></li>
-							<li><a href="#page2" data-transition="<?php echo $transitionefect ?>">Seo</a></li>
-							<li><a href="#page2" data-transition="<?php echo $transitionefect ?>">Local SE0</a></li>
-							<li><a href="#contcatform" data-transition="<?php echo $transitionefect ?>">Contact us</a></li>
-						</ul>
-					</section>
 
 
-                        <div class="ui-grid-solo" data-theme="<?php echo $theme ?>">
-                            <div class="ui-block-a buttons-semir"><a class="ui-btn ui-icon-info ui-btn-icon-left buttons-radius" href="#aboutUS" data-transition="<?php echo $transitionefect ?>">Home</a></div>
-                        </div>
-                             <button name="button" id="btn2" value="click">Testimonials</button>
 
-
-				</div>
-
-			</div>	
-				
-
-		</div>
-
-<!--Page2-->
-
-
-<!-- strana Home-->
+<!-- strana Home(klik)-->
 
 
         <div data-role="page" id="homes" data-theme="<?php echo $theme ?>">
             <div data-role="main" class="ui-content" data-theme="<?php echo $theme ?>">
                 <div class="ui-grid-solo" data-theme="<?php echo $theme ?>">
+                    <section id="navigation-menu1">
+                    <ul id="menu1" class="unvisible">
+                        <li><a href="#homes" data-transition="<?php echo $transitionefect ?>">Home</a></li>
+                        <li><a href="#staff" data-transition="<?php echo $transitionefect ?>">Our Staff</a></li>
+                        <li><a href="#services" data-transition="<?php echo $transitionefect ?>">Services</a></li>
+                        <li><a href="#banda" data-transition="<?php echo $transitionefect ?>">Before and After's</a></li>
+                        <li><a href="http://www.collettidds.com/pdf/newsletter_july_2013.pdf" data-transition="<?php echo $transitionefect ?>">News</a></li>
+                        <li><a href="#contacttfform" data-transition="<?php echo $transitionefect ?>">Contact us</a></li>
+                    </ul>
+                    </section>
                     <div class="ui-block-a buttons-semir "><a class="ui-btn ui-icon-info ui-btn-icon-left buttons-radius" href="#aboutUS" data-transition="<?php echo $transitionefect ?>">About US</a></div>
                     <div class="ui-block-a buttons-semir"><a class="ui-btn ui-icon-info ui-btn-icon-left buttons-radius" href="#testMN" data-transition="<?php echo $transitionefect?>">Testimonials</a></div>
                 </div>
@@ -271,6 +295,16 @@
         <div data-role="page" id="aboutUS" data-themes="<?php echo $theme?>">
             <div data-role="main" class="ui-content" data-theme="<?php echo $theme?>">
                 <div class="paragraphs">
+                    <section id="navigation-menu2">
+                        <ul id="menu2" class="unvisible">
+                            <li><a href="#homes" data-transition="<?php echo $transitionefect ?>">Home</a></li>
+                            <li><a href="#staff" data-transition="<?php echo $transitionefect ?>">Our Staff</a></li>
+                            <li><a href="#services" data-transition="<?php echo $transitionefect ?>">Services</a></li>
+                            <li><a href="#banda" data-transition="<?php echo $transitionefect ?>">Before and After's</a></li>
+                            <li><a href="http://www.collettidds.com/pdf/newsletter_july_2013.pdf" data-transition="<?php echo $transitionefect ?>">News</a></li>
+                            <li><a href="#contacttfform" data-transition="<?php echo $transitionefect ?>">Contact us</a></li>
+                        </ul>
+                    </section>
                     <h3>Sitting in Our Chair</h3>
                     <img src="img/aboutUsIm/about_4.jpg">
                     <h2>About Colletti D.D.S.</h2>
@@ -292,7 +326,17 @@
 
         <div data-role="page" id="testMN" data-theme="<?php echo $theme?>">
             <div data-role="main" class="ui-content" data-theme="<?php echo $theme?>">
-                <div class="paragraphs"
+                <div class="paragraphs">
+                    <section id="navigation-menu3">
+                        <ul id="menu3" class="unvisible">
+                            <li><a href="#homes" data-transition="<?php echo $transitionefect ?>">Home</a></li>
+                            <li><a href="#staff" data-transition="<?php echo $transitionefect ?>">Our Staff</a></li>
+                            <li><a href="#services" data-transition="<?php echo $transitionefect ?>">Services</a></li>
+                            <li><a href="#banda" data-transition="<?php echo $transitionefect ?>">Before and After's</a></li>
+                            <li><a href="http://www.collettidds.com/pdf/newsletter_july_2013.pdf" data-transition="<?php echo $transitionefect ?>">News</a></li>
+                            <li><a href="#contacttfform" data-transition="<?php echo $transitionefect ?>">Contact us</a></li>
+                        </ul>
+                    </section>
                      <div>
                          <h2>Testimonials</h2>
                          <p>We know that it is hard to find a new dentist. Happy and satisfied patients are always our top priority, that is why we ask our patients to write us a testimonial on their experience. It is one of the best ways we can show you what it is like to be a patient of Dr. Colletti D.D.S in Lombard Illinois. Want to submit a testi monial, please <a href="#contactform">click here.</a></p>
@@ -332,37 +376,23 @@
 
 <!--Page Testimonial Form-->
 
-        <div id="contactform" data-role="page data-theme="<?php echo $theme?>">
-            <div class="ui-content" data-role="main">
-                <div class="ui-grid-solo" data-theme="<?php echo $theme?>">
-                    <section id="navigation-menu-contact">
-                        <ul id="menu-contact">
-                            <li><a href="#page1" data-transition="<?php echo $transitionefect ?>">Home</a></li>
-                            <li><a href="#page2" data-transition="<?php echo $transitionefect ?>">Web Design</a></li>
-                            <li><a href="#page2" data-transition="<?php echo $transitionefect ?>">Local SE0</a></li>
-                            <li><a href="#page2" data-transition="<?php echo $transitionefect ?>">Web Analytics</a></li>
-                        </ul>
-                    </section>
-                    <form data-parsley-validate method="post" action="mail.php" data-ajax="false">
-                        Name: <input type="text" id="naam" name="naam" value="" placeholder="Name" required/><br>
-                        E-mail: <input type="email" id="mail" name="mail" value="" placeholder="E-mail" required/><br>
-                        Phone Number: <input type="tel" id="telefoon" name="telefoon" value="" placeholder="Phone"/><br>
-                        Subject: <input type="text" id="onderwerp" name="onderwerp" value="" placeholder="Subject" required/><br>
-                        Message:<br>
-                        <textarea style="height:100px;" id="bericht" name="bericht" placeholder="Enter your message here..." required></textarea> <br />
-                        <input type="submit" value="Send" name="submit" class="btn">
-                    </form>
-                </div>
 
-            </div>
-
-        </div>
 
 <!--Page Staff-->
         <div data-role="page" id="staff" data-theme="<?php echo $theme?>">
             <div class="ui-content" data-role="main">
                 <div class="ui-grid-a" data-theme="<?php echo $theme?>">
                     <div class="paragraphs">
+                        <section id="navigation-menu4">
+                            <ul id="menu4" class="unvisible">
+                                <li><a href="#homes" data-transition="<?php echo $transitionefect ?>">Home</a></li>
+                                <li><a href="#staff" data-transition="<?php echo $transitionefect ?>">Our Staff</a></li>
+                                <li><a href="#services" data-transition="<?php echo $transitionefect ?>">Services</a></li>
+                                <li><a href="#banda" data-transition="<?php echo $transitionefect ?>">Before and After's</a></li>
+                                <li><a href="http://www.collettidds.com/pdf/newsletter_july_2013.pdf" data-transition="<?php echo $transitionefect ?>">News</a></li>
+                                <li><a href="#contacttfform" data-transition="<?php echo $transitionefect ?>">Contact us</a></li>
+                            </ul>
+                        </section>
                          <div class="ui-block-a">
                                 <h2>Meet the Team</h2>
                                 <p class="subtitle">PROVIDING DENTAL CARE IN LOMBARD, IL FOR OVER 20 YEARS, DR. COLLETTI AND HIS STAFF OFFER PROFESSIONAL AND CARING DENTAL SERVICE.</p>
@@ -399,8 +429,17 @@
         <div data-role="page" id="colletti" data-theme="<?php echo $theme?>">
             <div data-role="main" class="ui-content">
                 <div class="ui-grid-solo" data-theme="<?php echo $theme?>">
+                    <section id="navigation-menu5">
+                        <ul id="menu5" class="unvisible">
+                            <li><a href="#homes" data-transition="<?php echo $transitionefect ?>">Home</a></li>
+                            <li><a href="#staff" data-transition="<?php echo $transitionefect ?>">Our Staff</a></li>
+                            <li><a href="#services" data-transition="<?php echo $transitionefect ?>">Services</a></li>
+                            <li><a href="#banda" data-transition="<?php echo $transitionefect ?>">Before and After's</a></li>
+                            <li><a href="http://www.collettidds.com/pdf/newsletter_july_2013.pdf" data-transition="<?php echo $transitionefect ?>">News</a></li>
+                            <li><a href="#contacttfform" data-transition="<?php echo $transitionefect ?>">Contact us</a></li>
+                        </ul>
+                    </section>
                     <div class="ui-block-a">
-
                         <h2>Dr. Michale T. Colletti, D.D.S.</h2>
                         <img src="img/picture/page2-img1.jpg">
                         <p class="words">ABOUT MICHAEL T. COLLETTI, D.D.S.</p>
@@ -422,6 +461,16 @@
         <div data-role="page" id="services" data-theme="<?php echo $theme?>">
             <div data-role="main" clas="ui-content">
                 <div class="ui-grid-solo" data-theme="<?php echo $theme?>">
+                    <section id="navigation-menu6">
+                        <ul id="menu6" class="unvisible">
+                            <li><a href="#homes" data-transition="<?php echo $transitionefect ?>">Home</a></li>
+                            <li><a href="#staff" data-transition="<?php echo $transitionefect ?>">Our Staff</a></li>
+                            <li><a href="#services" data-transition="<?php echo $transitionefect ?>">Services</a></li>
+                            <li><a href="#banda" data-transition="<?php echo $transitionefect ?>">Before and After's</a></li>
+                            <li><a href="http://www.collettidds.com/pdf/newsletter_july_2013.pdf" data-transition="<?php echo $transitionefect ?>">News</a></li>
+                            <li><a href="#contacttfform" data-transition="<?php echo $transitionefect ?>">Contact us</a></li>
+                        </ul>
+                    </section>
                     <div class="ui-block-a">
                     <h2>Diagnostic & Custom Smile Design</h2>
                     <img src="img/picture/page3-img1.jpg">
@@ -491,7 +540,16 @@
         <div data-role="page" data-theme="<?php echo $theme?>" id="banda">
             <div data-role="main" class="ui-content">
                 <div class="ui-grid-solo" data-theme="<?php echo $theme?>">
-
+                    <section id="navigation-menu7">
+                        <ul id="menu7" class="unvisible">
+                            <li><a href="#homes" data-transition="<?php echo $transitionefect ?>">Home</a></li>
+                            <li><a href="#staff" data-transition="<?php echo $transitionefect ?>">Our Staff</a></li>
+                            <li><a href="#services" data-transition="<?php echo $transitionefect ?>">Services</a></li>
+                            <li><a href="#banda" data-transition="<?php echo $transitionefect ?>">Before and After's</a></li>
+                            <li><a href="http://www.collettidds.com/pdf/newsletter_july_2013.pdf" data-transition="<?php echo $transitionefect ?>">News</a></li>
+                            <li><a href="#contacttfform" data-transition="<?php echo $transitionefect ?>">Contact us</a></li>
+                        </ul>
+                    </section>
                     <h3 style="font-family: cursive">Smile Makeover</h3>
                     <p>Almost anyone can have the perfect smile they dream about. But there is a more to the perfect smile than just white teeth, including healthy gums</p>
                     <a href="#" class="ui-btn ui-mini ui-btn-corner-all">read more</a>
@@ -545,8 +603,18 @@
             <div data-role="main" class="ui-content">
                 <div class="ui-grid-solo" data-theme="<?php echo $theme?>">
                     <div class="pparagraphss">
+                        <section id="navigation-menu8">
+                            <ul id="menu8" class="unvisible">
+                                <li><a href="#homes" data-transition="<?php echo $transitionefect ?>">Home</a></li>
+                                <li><a href="#staff" data-transition="<?php echo $transitionefect ?>">Our Staff</a></li>
+                                <li><a href="#services" data-transition="<?php echo $transitionefect ?>">Services</a></li>
+                                <li><a href="#banda" data-transition="<?php echo $transitionefect ?>">Before and After's</a></li>
+                                <li><a href="http://www.collettidds.com/pdf/newsletter_july_2013.pdf" data-transition="<?php echo $transitionefect ?>">News</a></li>
+                                <li><a href="#contacttfform" data-transition="<?php echo $transitionefect ?>">Contact us</a></li>
+                            </ul>
+                        </section>
                  <h2>Testimonials</h2>
-                    <p>To go back to the main Restoration Dentistry page or to view the next set of before and after photos, please <a href="#">click here.</a> Photos are enlarged to show detail. Please scroll down to see the complete set of images</p>
+                    <p>To go back to the main Restoration Dentistry page or to view the next set of before and after photos, please <a href="#banda">click here.</a> Photos are enlarged to show detail. Please scroll down to see the complete set of images</p>
                 </div>
                 <div clas="ui-grid-a">
 
@@ -638,6 +706,10 @@
                 </div>
             </div>
         </div>
+
+
+
+
 	<!-- page 2 ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////-->
 		<!-- page 3 ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////-->
 
@@ -693,5 +765,29 @@
 	
 	   
 		<!-- Slajder se zavrsava -->
+
+
+        <div id="contacttfform" data-role="page" data-theme="<?php echo $theme ?>">
+            <div data-role="main" class="ui-content" >
+                <h2>How to Find Us</h2>
+                <h2 style="color: blue">WELCOME TO MICHAEL T. COLLETTI D.D.S</h2>
+                <p>We are delighted to welcome you to Colletti D.D.S. and are pleased that you have chosen us to serve your dental needs. Our goal is to help you reach your goals for your mouth, teeth, gums and smile by providing excellent dental care.
+                    Just complete the following form and one of our team members will contact you as soon as possible to schedule a convenient time for your first appointment.</p>
+                <div class="ui-grid-solo" data-theme="<?php echo $theme ?>">
+                    <form data-parsley-validate method="post" action="mail.php" data-ajax="false">
+                        Name: <input type="text" id="naam" name="naam" value="" placeholder="Name" required/><br>
+                        E-mail: <input type="email" id="mail" name="mail" value="" placeholder="E-mail" required/><br>
+                        Message:<br>
+                        <textarea style="height:100px;" id="bericht" name="bericht" placeholder="Enter your message here..." required></textarea> <br />
+                        <input type="submit" value="Submit" class="ui-btn">
+                    </form>
+                </div>
+            </div>
+
+        </div>
+
+
+
+
 	</body>
 </html>
