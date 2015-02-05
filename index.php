@@ -141,7 +141,7 @@
 			// echo "<script type='text/javascript'>alert('$transitionefect')</script>";
 		?>
 		<div id="header-image" data-role="header" data-theme="<?php echo $theme?>" data-position="fixed">
-		    <h1><img src="img/logo/logo2.jpg" alt="LOGO"></h1>
+		    <h1><img src="img/logo/LOGOS.png" alt="LOGO"></h1>
 		</div>
 		<div data-role="footer" data-theme="<?php echo $theme ?>" data-position="fixed">
 		    <h1>Mobile Site<a href="http://marketrivals.com" rel="external">  Clasic Site</a></h1>
